@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-labelledby="t d">
+  <title id="t">Would You Rather TV system overview</title>
+  <desc id="d">A TV remote sends D-pad, select and back keys to focusable widgets on each screen. Screens drive a local game session in which every player votes in turn on a bundled question and the majority is scored. Bundled question files, preferences and a local store hold data on the device. Services provide ads, audio, billing and analytics, with native Kotlin managers behind platform channels for billing, sound and the on-screen keyboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c0f33"/>
+      <stop offset="1" stop-color="#2d1650"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f1e9fb; }
+      .h { font-size: 26px; font-weight: 700; }
+      .k { font-size: 13px; fill: #c9a8f0; letter-spacing: 1.5px; font-weight: 700; }
+      .b { font-size: 16px; }
+      .s { font-size: 14px; fill: #d2bdee; }
+      .in  { fill: #3a2466; stroke: #b98cf0; stroke-width: 2; }
+      .ui  { fill: #4a2a14; stroke: #f0a63a; stroke-width: 2; }
+      .gm  { fill: #2a2557; stroke: #8fa0f5; stroke-width: 2; }
+      .sv  { fill: #41225a; stroke: #e08ae0; stroke-width: 2; }
+      .nt  { fill: #1f3d33; stroke: #5fd3a0; stroke-width: 2; }
+      .arrow { stroke: #c9a8f0; stroke-width: 2; fill: none; marker-end: url(#a); }
+    </style>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#c9a8f0"/></marker>
+  </defs>
+  <rect width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="40" y="52" class="h">Would You Rather TV: one remote, every player votes in turn</text>
+  <text x="40" y="78" class="s">Android TV, Flutter and Dart, with a small Kotlin layer for billing, sound and the on-screen keyboard.</text>
+
+  <rect x="40" y="120" width="220" height="150" rx="12" class="in"/>
+  <text x="60" y="150" class="k">TV REMOTE</text>
+  <text x="60" y="180" class="b">D-pad arrows</text>
+  <text x="60" y="206" class="b">Select / Enter</text>
+  <text x="60" y="232" class="b">Back / Escape</text>
+  <text x="60" y="256" class="s">No touchscreen required</text>
+
+  <rect x="320" y="120" width="300" height="150" rx="12" class="ui"/>
+  <text x="340" y="150" class="k">SCREEN INPUT LAYER</text>
+  <text x="340" y="180" class="b">Focusable widgets, Select key</text>
+  <text x="340" y="206" class="b">Focus scopes on dialogs</text>
+  <text x="340" y="232" class="b">Explicit focus hand-back</text>
+  <text x="340" y="256" class="s">Home, categories, players, round</text>
+
+  <rect x="680" y="120" width="260" height="150" rx="12" class="gm"/>
+  <text x="700" y="150" class="k">GAME SESSION</text>
+  <text x="700" y="180" class="b">Shuffled question list</text>
+  <text x="700" y="206" class="b">Turn timer, pause</text>
+  <text x="700" y="232" class="b">Votes A / B per player</text>
+  <text x="700" y="256" class="s">Majority scores a point</text>
+
+  <rect x="980" y="120" width="180" height="150" rx="12" class="gm"/>
+  <text x="1000" y="150" class="k">LOCAL DATA</text>
+  <text x="1000" y="180" class="b">Question files</text>
+  <text x="1000" y="206" class="b">Settings</text>
+  <text x="1000" y="232" class="b">Seen question ids</text>
+  <text x="1000" y="256" class="s">On device only</text>
+
+  <path d="M260 195 L316 195" class="arrow"/>
+  <path d="M620 195 L676 195" class="arrow"/>
+  <path d="M940 195 L976 195" class="arrow"/>
+
+  <rect x="40" y="330" width="360" height="190" rx="12" class="sv"/>
+  <text x="60" y="360" class="k">DART SERVICES</text>
+  <text x="60" y="390" class="b">Ads: Unity, cooldowns, fall-through</text>
+  <text x="60" y="416" class="b">Billing bridge: method + event channels</text>
+  <text x="60" y="442" class="b">Audio bridge: effects and music</text>
+  <text x="60" y="468" class="b">Analytics: validated events</text>
+  <text x="60" y="500" class="s">Riverpod providers, GoRouter routes</text>
+
+  <rect x="470" y="330" width="330" height="190" rx="12" class="sv"/>
+  <text x="490" y="360" class="k">KOTLIN LAYER</text>
+  <text x="490" y="390" class="b">BillingManager (Play Billing)</text>
+  <text x="490" y="416" class="b">SoundPoolManager (effects, music)</text>
+  <text x="490" y="442" class="b">IME visibility listener</text>
+  <text x="490" y="468" class="b">URL opener (store, terms)</text>
+  <text x="490" y="500" class="s">Platform channels to Dart</text>
+
+  <rect x="870" y="330" width="290" height="190" rx="12" class="nt"/>
+  <text x="890" y="360" class="k">NETWORK USE</text>
+  <text x="890" y="390" class="b">Ad network and Play Billing</text>
+  <text x="890" y="416" class="b">Firebase Analytics</text>
+  <text x="890" y="442" class="b">Font download on first use</text>
+  <text x="890" y="468" class="b">No vote-sharing backend</text>
+  <text x="890" y="500" class="s">Totals come from the room only</text>
+
+  <path d="M780 270 L780 300 L220 300 L220 326" class="arrow"/>
+  <path d="M400 425 L466 425" class="arrow"/>
+  <path d="M400 485 L430 485 L430 560 L1015 560 L1015 524" class="arrow"/>
+
+  <text x="40" y="590" class="s">Round flow: category, rounds, players, then each player votes on the same question; ties award no points.</text>
+  <text x="40" y="614" class="s">All scores and counts are computed on the device from the votes of the people in the room.</text>
+</svg>
